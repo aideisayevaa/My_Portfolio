@@ -168,3 +168,49 @@ aside {
     box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
     margin-right: 10px;
 }
+
+
+/* Right Area  */
+#right_area {
+    width: 82vw;
+    float: right;
+}
+
+/* Home */
+#home {
+    background-color: #212428;
+    height: 100vh;
+    border-bottom: 1px solid #2c3037;
+}
+
+.home_content img {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    margin-bottom: 20px;
+}
+
+.home_content h2 {
+    font-size: 48px;
+    color: white;
+}
+
+.home_content p {
+    font-weight: 300;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.home_content button {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff014f;
+    padding: 20px 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
