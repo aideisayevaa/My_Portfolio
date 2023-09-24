@@ -214,3 +214,32 @@ aside {
     cursor: pointer;
     text-transform: uppercase;
 }
+
+/* Feature */
+#contact,
+#features,
+#portfolios,
+#education,
+#skills,
+#experience {
+    padding: 80px 30px;
+    background-color: #212428;
+    border-bottom: 1px solid #2c3037;
+}
+
+.features,
+.portfolios {
+    padding-top: 50px;
+}
+
+.feature,
+.portfolio {
+    width: 32%;
+    padding: 35px 50px;
+}
+
+.feature i {
+    font-size: 40px;
+    margin: 10px 0 30px;
+    color: #ff014f;
+}
