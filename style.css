@@ -243,3 +243,31 @@ aside {
     margin: 10px 0 30px;
     color: #ff014f;
 }
+
+/* Portfolios */
+.portfolio {
+    padding: 30px 30px 10px;
+}
+
+.portfolio_img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio .heading_first {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.portfolio_text span:last-child {
+    font-size: 13px;
+    color: #878e99;
+}
+
+.portfolio_text span:last-child i {
+    margin-right: 8px;
+}
+
+.portfolio_text>div {
+    padding: 20px 0;
+}
