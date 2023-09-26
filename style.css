@@ -271,3 +271,50 @@ aside {
 .portfolio_text>div {
     padding: 20px 0;
 }
+
+
+/* Experience */
+.experiences {
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.experience {
+    width: 48%;
+    padding: 40px;
+
+}
+
+.experience_text {
+    width: 71%;
+}
+
+.experience_img {
+    width: 20%;
+}
+
+.education_logo img,
+.experience_img img {
+    width: 120px;
+    height: 120px;
+}
+
+.experience_text .font_first {
+    margin-bottom: 10px;
+}
+
+.experience_text span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.experience_text ul{
+    font-size: 13px;
+    margin-top: 12px;
+    opacity: 0.7;
+}
+
+.experience_text ul li{
+    margin:7px 0;
+}
