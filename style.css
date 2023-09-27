@@ -318,3 +318,59 @@ aside {
 .experience_text ul li{
     margin:7px 0;
 }
+
+
+/* Skills */
+
+.skills {
+    width: 50%;
+}
+
+.skill {
+    margin: 30px 20px;
+}
+
+.skill-label {
+    margin-bottom: 5px;
+    color: #c3cedd;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    opacity: .9;
+    text-transform: uppercase;
+}
+
+.progress {
+    width: 100%;
+    background: #212428;
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 16px rgba(0, 0, 0, .459), inset -8px -8px 16px rgba(56, 62, 69, .459);
+    height: 13px;
+    padding: 3px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 13px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(145deg, #f02981, #c81901);
+    border-radius: 14px;
+    font-size: 11px;
+}
+
+.progress-bar[data-value="25%"] {
+    width: 25%;
+}
+
+.progress-bar[data-value="50%"] {
+    width: 50%;
+}
+
+.progress-bar[data-value="75%"] {
+    width: 75%;
+}
+
+.progress-bar[data-value="100%"] {
+    width: 100%;
+}
