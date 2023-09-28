@@ -374,3 +374,60 @@ aside {
 .progress-bar[data-value="100%"] {
     width: 100%;
 }
+
+
+
+/* Education */
+
+.education {
+    margin: 50px 0;
+    width: 48%;
+    padding: 50px 30px;
+}
+
+.education_text .box_style {
+    font-size: 13px;
+    width: max-content;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+.education_text {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.education_text span:first-of-type {
+    font-style: italic;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.education_text span:nth-of-type(2) {
+    font-size: 11px;
+    color: #7a7c81;
+    display: block;
+}
+
+.education_logo,
+.experience_img {
+    text-align: center;
+    width: 30%;
+}
+
+.education_logo img,
+.experience_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #2c3037;
+}
+.experience_img img {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #2c3037;
+}
