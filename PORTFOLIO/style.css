@@ -87,7 +87,6 @@ a {
     background: linear-gradient(145deg, #1e2024, #23272b);
 }
 
-
 /* Aside */
 
 aside {
@@ -169,7 +168,6 @@ aside {
     margin-right: 10px;
 }
 
-
 /* Right Area  */
 #right_area {
     width: 82vw;
@@ -244,6 +242,7 @@ aside {
     color: #ff014f;
 }
 
+
 /* Portfolios */
 .portfolio {
     padding: 30px 30px 10px;
@@ -272,7 +271,6 @@ aside {
     padding: 20px 0;
 }
 
-
 /* Experience */
 .experiences {
     flex-wrap: wrap;
@@ -282,7 +280,7 @@ aside {
 
 .experience {
     width: 48%;
-    padding: 40px;
+    padding: 40px 20px;
 
 }
 
@@ -309,14 +307,14 @@ aside {
     font-size: 14px;
 }
 
-.experience_text ul {
+.experience_text ul{
     font-size: 13px;
     margin-top: 12px;
     opacity: 0.7;
 }
 
-.experience_text ul li {
-    margin: 7px 0;
+.experience_text ul li{
+    margin:7px 0;
 }
 
 
@@ -375,8 +373,6 @@ aside {
     width: 100%;
 }
 
-
-
 /* Education */
 
 .education {
@@ -399,16 +395,6 @@ aside {
     padding-left: 30px;
 }
 
-
-.education_logo img,
-.experience_img img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 10px solid #2c3037;
-}
-
 .education_text span:first-of-type {
     font-style: italic;
     margin-bottom: 10px;
@@ -422,103 +408,22 @@ aside {
     display: block;
 }
 
-.experience_img img {
-    width: 120px;
-    height: 120px;
-    border: 7px solid #2c3037;
-}
-
 .education_logo,
 .experience_img {
     text-align: center;
     width: 30%;
 }
 
-/* Contact */
-.contact {
-    gap: 30px;
-    padding: 50px 0;
+.education_logo img,
+.experience_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #2c3037;
 }
-
-.contact_info {
-    width: 40%;
-    padding: 35px;
-}
-
-
-.contact_form {
-    width: 57%;
-    padding: 35px;
-}
-
-.contact_info_img img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-.contact_info_text h4 {
-    font-size: 29px;
-    line-height: 44px;
-    margin-bottom: 9px;
-    color: white;
-    margin: 30px 0 20px;
-}
-
-.contact_info_text p {
-    color: #878e99;
-    margin: 10px 0;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.contact .aside_bottom h4 {
-    margin-bottom: 20px;
-}
-
-.contact input,
-.contact textarea {
-    background-color: #191b1e;
-    border: 2px solid #191b1e;
-    border-radius: 6px;
-    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, .7) inset, -1px -3px 3px -2px hsla(0, 0%, 100%, .2) inset;
-    color: #c4cfde;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    height: 55px;
-    letter-spacing: 1px;
-    padding: 0 15px;
-    width: 100%;
-    margin-top: 10px;
-}
-
-.contact textarea {
-    resize: none;
-    height: 230px;
-}
-
-.contact label {
-    margin: 10px 0;
-    font-size: 12px;
-}
-.contact form .flex{
-    gap: 20px;
-}
-.contact form .flex label {
-    width: 50%;
-}
-
-.contact button {
-    width: max-content;
-    padding: 20px 30px;
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    border-radius: 6px;
-    border: none;
-    color: #f02981;
-    cursor: pointer;
-    background: linear-gradient(to right bottom, #212428, #16181c);
-}
-
-.contact button i {
-    color: #f02981;
-    margin-left: 5px;
+.experience_img img {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #2c3037;
 }
