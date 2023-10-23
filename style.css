@@ -500,9 +500,11 @@ aside {
     margin: 10px 0;
     font-size: 12px;
 }
-.contact form .flex{
+
+.contact form .flex {
     gap: 20px;
 }
+
 .contact form .flex label {
     width: 50%;
 }
